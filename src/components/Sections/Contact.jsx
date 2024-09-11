@@ -13,10 +13,14 @@ export default function Contact() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut
+              Ready to bring your next big idea to life? At CodeForge, we’re
+              here to help. <br />
+              Whether you’re looking to start a new project, optimize your
+              current technology, or simply explore possibilities, we’re just a
+              message away.
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Contact us to discuss how we can collaborate and create something
+              extraordinary together.
             </p>
           </HeaderInfo>
           <div className="row" style={{ paddingBottom: "30px" }}>
@@ -73,7 +77,10 @@ export default function Contact() {
                   <img src={ContactImg2} alt="office" className="radius6" />
                 </ContactImgBox>
               </div>
-              <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
+              <div
+                style={{ width: "50%" }}
+                className="flexNullCenter flexColumn"
+              >
                 <ContactImgBoxRight>
                   <img src={ContactImg3} alt="office" className="radius6" />
                 </ContactImgBoxRight>

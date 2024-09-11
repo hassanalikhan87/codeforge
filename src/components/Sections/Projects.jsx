@@ -18,11 +18,15 @@ export default function Projects() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Projects</h1>
+            <h1 className="font40 extraBold">Portfolio</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              At CodeForge, our work speaks for itself.
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              We’ve partnered with clients across industries to deliver
+              high-performance software solutions that drive real-world results.
+              <br />
+              Our portfolio showcases the creativity, precision, and innovation
+              that define our approach.
             </p>
           </HeaderInfo>
           <div className="row textCenter">
@@ -30,7 +34,6 @@ export default function Projects() {
               <ProjectBox
                 img={ProjectImg1}
                 title="NHP Australia"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 href="https://www.nhp.com.au"
               />
             </div>
@@ -38,16 +41,14 @@ export default function Projects() {
               <ProjectBox
                 img={ProjectImg2}
                 title="RMIT Openday"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                href='https://www.rmit.edu.au/openday'
+                href="https://www.rmit.edu.au/openday"
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg3}
                 title="Lexus Australia"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                href='https://www.lexus.com.au'
+                href="https://www.lexus.com.au"
               />
             </div>
           </div>
@@ -56,32 +57,24 @@ export default function Projects() {
               <ProjectBox
                 img={ProjectImg4}
                 title="AICD Australia"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                href='https://www.aicd.com.au'
+                href="https://www.aicd.com.au"
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg5}
                 title="The University Of Adelaide"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                href='https://www.adelaide.edu.au'
+                href="https://www.adelaide.edu.au"
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg6}
                 title="Aware Super"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                href='https://aware.com.au'
+                href="https://aware.com.au"
               />
             </div>
           </div>
-          {/* <div className="row flexCenter">
-            <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="Load More" action={() => alert("clicked")} />
-            </div>
-          </div> */}
         </div>
       </div>
       <div className="lightBg">
@@ -98,15 +91,27 @@ export default function Projects() {
               <h4 className="font15 semiBold">A few words about company</h4>
               <h2 className="font40 extraBold">A Study of Creativity</h2>
               <p className="font12">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum.
               </p>
-              <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
+              <ButtonsRow
+                className="flexNullCenter"
+                style={{ margin: "30px 0" }}
+              >
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" action={() => alert("clicked")} />
+                  <FullButton
+                    title="Get Started"
+                    action={() => alert("clicked")}
+                  />
                 </div>
                 <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                  <FullButton
+                    title="Contact Us"
+                    action={() => alert("clicked")}
+                    border
+                  />
                 </div>
               </ButtonsRow>
             </AddRight>

@@ -5,6 +5,7 @@ import FullButton from "../Buttons/FullButton";
 // Assets
 import HeaderImage from "../../assets/img/header-img.png";
 import QuotesIcon from "../../assets/svg/Quotes";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
@@ -13,9 +14,9 @@ export default function Header() {
         <div>
           <h1 className="extraBold font60">Bridging Ideas with Innovation.</h1>
           <HeaderP className="font13 semiBold">
-            At CodeForge, we are more than just a software service provider—we take full
-            ownership of our clients' technology needs, managing every aspect
-            from strategy to execution. Our team of top-tier experts and
+            At CodeForge, we are more than just a software service provider—we
+            take full ownership of our clients' technology needs, managing every
+            aspect from strategy to execution. Our team of top-tier experts and
             cutting-edge technology ensures high-performance, end-to-end
             solutions tailored to meet all of your business challenges. We are
             committed to delivering seamless, scalable solutions that drive
@@ -23,7 +24,14 @@ export default function Header() {
             we handle the tech.
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Get Started" />
+            <StyledLink
+              className="radius8 purpleBg lightColor"
+              to="projects"
+              smooth={true}
+              offset={-80}
+            >
+              See our Portfolio
+            </StyledLink>
           </BtnWrapper>
         </div>
       </LeftSide>
@@ -141,4 +149,13 @@ const QuotesWrapper = styled.div`
   position: absolute;
   left: -20px;
   top: -10px;
+`;
+
+const StyledLink = styled(Link)`
+  padding: 10px 15px;
+  cursor: pointer;
+  &:hover {
+    color: #f5f5f5;
+    background-color: #f2b300;
+  }
 `;
