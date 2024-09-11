@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/codeforge/static/css/main.040834e3.chunk.css",
+    "main.js": "/codeforge/static/js/main.35f3e088.chunk.js",
+    "main.js.map": "/codeforge/static/js/main.35f3e088.chunk.js.map",
+    "runtime-main.js": "/codeforge/static/js/runtime-main.e8806c6b.js",
+    "runtime-main.js.map": "/codeforge/static/js/runtime-main.e8806c6b.js.map",
+    "static/css/2.74d383b3.chunk.css": "/codeforge/static/css/2.74d383b3.chunk.css",
+    "static/js/2.76120c42.chunk.js": "/codeforge/static/js/2.76120c42.chunk.js",
+    "static/js/2.76120c42.chunk.js.map": "/codeforge/static/js/2.76120c42.chunk.js.map",
+    "static/js/3.9785d510.chunk.js": "/codeforge/static/js/3.9785d510.chunk.js",
+    "static/js/3.9785d510.chunk.js.map": "/codeforge/static/js/3.9785d510.chunk.js.map",
+    "index.html": "/codeforge/index.html",
+    "static/css/2.74d383b3.chunk.css.map": "/codeforge/static/css/2.74d383b3.chunk.css.map",
+    "static/css/main.040834e3.chunk.css.map": "/codeforge/static/css/main.040834e3.chunk.css.map",
+    "static/js/2.76120c42.chunk.js.LICENSE.txt": "/codeforge/static/js/2.76120c42.chunk.js.LICENSE.txt",
+    "static/media/1.6a555a91.png": "/codeforge/static/media/1.6a555a91.png",
+    "static/media/2.58ea208a.png": "/codeforge/static/media/2.58ea208a.png",
+    "static/media/header-img.ffc7a036.png": "/codeforge/static/media/header-img.ffc7a036.png",
+    "static/media/logo01.1182a669.svg": "/codeforge/static/media/logo01.1182a669.svg",
+    "static/media/logo02.33fcdb60.svg": "/codeforge/static/media/logo02.33fcdb60.svg",
+    "static/media/logo03.eabd81e7.svg": "/codeforge/static/media/logo03.eabd81e7.svg",
+    "static/media/logo04.c04380e5.svg": "/codeforge/static/media/logo04.c04380e5.svg",
+    "static/media/logo05.ce951109.svg": "/codeforge/static/media/logo05.ce951109.svg",
+    "static/media/logo06.c96325ab.svg": "/codeforge/static/media/logo06.c96325ab.svg",
+    "static/media/logo07.70dd2d6f.svg": "/codeforge/static/media/logo07.70dd2d6f.svg",
+    "static/media/logo08.98b0bc47.svg": "/codeforge/static/media/logo08.98b0bc47.svg",
+    "static/media/slick-theme.css": "/codeforge/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8806c6b.js",
+    "static/css/2.74d383b3.chunk.css",
+    "static/js/2.76120c42.chunk.js",
+    "static/css/main.040834e3.chunk.css",
+    "static/js/main.35f3e088.chunk.js"
+  ]
+}
