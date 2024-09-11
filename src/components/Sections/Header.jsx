@@ -11,9 +11,16 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">Hire the Best Talent.</h1>
+          <h1 className="extraBold font60">Bridging Ideas with Innovation.</h1>
           <HeaderP className="font13 semiBold">
-          We are a leading software company that brings together top-rated experts and latest technologies for developing high-performance end-to-end solutions.
+            At CodeForge, we are more than just a software service provider—we take full
+            ownership of our clients' technology needs, managing every aspect
+            from strategy to execution. Our team of top-tier experts and
+            cutting-edge technology ensures high-performance, end-to-end
+            solutions tailored to meet all of your business challenges. We are
+            committed to delivering seamless, scalable solutions that drive
+            success, empowering our clients to focus on what they do best while
+            we handle the tech.
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Get Started" />
@@ -22,16 +29,30 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
+          <Img
+            className="radius8"
+            src={HeaderImage}
+            alt="office"
+            style={{ zIndex: 9 }}
+          />
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
             <div>
               <p className="font15 whiteColor">
-                <em>Design is a funny word. Some people think design means how it looks. But of course, if you dig deeper, it's really how it works.</em>
+                <em>
+                  Design is a funny word. Some people think design means how it
+                  looks. But of course, if you dig deeper, it's really how it
+                  works.
+                </em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Steve Jobs</p>
+              <p
+                className="font13 orangeColor textRight"
+                style={{ marginTop: "10px" }}
+              >
+                Steve Jobs
+              </p>
             </div>
           </QuoteWrapper>
         </ImageWrapper>
@@ -39,7 +60,6 @@ export default function Header() {
     </Wrapper>
   );
 }
-
 
 const Wrapper = styled.section`
   padding-top: 80px;
