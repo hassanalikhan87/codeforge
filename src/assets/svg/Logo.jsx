@@ -25,7 +25,7 @@ function SvgComponent(props) {
       <path
         d="M5.51924 15.866L30 1.73205L54.4808 15.866V44.134L30 58.2679L5.51924 44.134V15.866Z"
         stroke="#4CD5C5"
-        stroke-width="3"
+        strokeWidth="3"
       />
     </svg>
   );
