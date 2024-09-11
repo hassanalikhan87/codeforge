@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/codeforge/static/css/main.040834e3.chunk.css",
-    "main.js": "/codeforge/static/js/main.d0196144.chunk.js",
-    "main.js.map": "/codeforge/static/js/main.d0196144.chunk.js.map",
+    "main.js": "/codeforge/static/js/main.68759e50.chunk.js",
+    "main.js.map": "/codeforge/static/js/main.68759e50.chunk.js.map",
     "runtime-main.js": "/codeforge/static/js/runtime-main.e8806c6b.js",
     "runtime-main.js.map": "/codeforge/static/js/runtime-main.e8806c6b.js.map",
     "static/css/2.74d383b3.chunk.css": "/codeforge/static/css/2.74d383b3.chunk.css",
@@ -16,6 +16,10 @@
     "static/js/2.76120c42.chunk.js.LICENSE.txt": "/codeforge/static/js/2.76120c42.chunk.js.LICENSE.txt",
     "static/media/1.6a555a91.png": "/codeforge/static/media/1.6a555a91.png",
     "static/media/2.58ea208a.png": "/codeforge/static/media/2.58ea208a.png",
+    "static/media/3.fc9c2a89.png": "/codeforge/static/media/3.fc9c2a89.png",
+    "static/media/4.9f1d3209.png": "/codeforge/static/media/4.9f1d3209.png",
+    "static/media/5.b7206fad.png": "/codeforge/static/media/5.b7206fad.png",
+    "static/media/6.f43eb498.png": "/codeforge/static/media/6.f43eb498.png",
     "static/media/header-img.ffc7a036.png": "/codeforge/static/media/header-img.ffc7a036.png",
     "static/media/logo01.1182a669.svg": "/codeforge/static/media/logo01.1182a669.svg",
     "static/media/logo02.33fcdb60.svg": "/codeforge/static/media/logo02.33fcdb60.svg",
@@ -32,6 +36,6 @@
     "static/css/2.74d383b3.chunk.css",
     "static/js/2.76120c42.chunk.js",
     "static/css/main.040834e3.chunk.css",
-    "static/js/main.d0196144.chunk.js"
+    "static/js/main.68759e50.chunk.js"
   ]
 }
