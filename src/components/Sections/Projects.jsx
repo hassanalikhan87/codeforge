@@ -162,10 +162,10 @@ const AddLeftInner = styled.div`
   top: -300px;
   left: 0;
   @media (max-width: 1190px) {
-    top: -250px;
+    top: -200px;
   }
   @media (max-width: 920px) {
-    top: -200px;
+    top: -100px;
   }
   @media (max-width: 860px) {
     order: 1;
@@ -178,10 +178,22 @@ const ImgWrapper = styled.div`
   width: 100%;
   padding: 0 15%;
   img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width: auto;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 1200px) {
+    padding: 0 15%;
+    img {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 600px) {
     padding: 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 `;
