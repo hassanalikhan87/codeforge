@@ -21,71 +21,73 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h1 className="font40 extraBold">Services</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut
+              At CodeForge, we combine expert talent with cutting-edge
+              technology to create high-performance software solutions that fuel
+              business growth.
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              CodeForge is your partner for transformative solutions and
+              long-term success.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="roller"
+                icon="software"
                 title="Software Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                subtitle="At CodeForge, we specialize in building tailor-made software solutions that align with your unique business objectives. From simple applications to complex enterprise systems, our expert developers ensure scalability, security, and seamless integration with your existing infrastructure."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="monitor"
+                icon="web"
                 title="Web Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                subtitle="From sleek and responsive websites to powerful web applications, our web development services ensure that your online presence is not only visually appealing but also technically robust. We use the latest technologies to build websites that enhance user engagement and drive conversions."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="browser"
+                icon="mobile"
                 title="Mobile Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                subtitle="We create high-performance mobile applications for iOS and Android that deliver an exceptional user experience. Our apps are designed to be intuitive, engaging, and functional, helping your business connect with customers on the go."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="printer"
-                title="E-Commerce"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                icon="cloud"
+                title="Cloud Solutions & DevOps"
+                subtitle="Optimize your IT infrastructure with CodeForge's cloud solutions and DevOps services. We help businesses transition to the cloud, implement CI/CD pipelines, and maintain scalable, high-performance systems with 24/7 support."
               />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="roller"
+                icon="uiux"
                 title="UI/UX Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                subtitle="Our design team works closely with clients to create visually stunning and user-friendly interfaces that enhance customer engagement. We prioritize usability, aesthetics, and responsiveness to deliver designs that not only look great but also perform seamlessly across platforms."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="monitor"
-                title="AI/ML"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                icon="aiml"
+                title="AI & Machine Learning"
+                subtitle="Unlock the potential of AI and machine learning to transform your business processes. CodeForge develops custom AI models, predictive analytics tools, and machine learning algorithms that enable data-driven decision-making and automation."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="browser"
-                title="Software Testing"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                icon="blockchain"
+                title="Blockchain Development"
+                subtitle="Leverage the power of blockchain to enhance security, transparency, and efficiency in your business operations. Our team of blockchain developers is skilled in creating decentralized applications (dApps), smart contracts, and custom blockchain solutions that empower your business."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="printer"
-                title="Virtual Teams"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                icon="strategy"
+                title="Consulting & IT Strategy"
+                subtitle="Our consulting services help businesses align their technology strategy with their overall goals. We provide expert guidance on everything from digital transformation to IT infrastructure, ensuring that your business stays ahead of the competition"
               />
             </ServiceBoxWrapper>
           </ServiceBoxRow>

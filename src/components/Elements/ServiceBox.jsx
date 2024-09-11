@@ -1,37 +1,54 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import RollerIcon from "../../assets/svg/Services/RollerIcon";
-import MonitorIcon from "../../assets/svg/Services/MonitorIcon";
-import BrowserIcon from "../../assets/svg/Services/BrowserIcon";
-import PrinterIcon from "../../assets/svg/Services/PrinterIcon";
+import WebdevIcon from "../../assets/svg/Services/WebdevIcon";
+import SoftwareIcon from "../../assets/svg/Services/SoftwareIcon";
+import MobileIcon from "../../assets/svg/Services/MobileIcon";
+import CloudIcon from "../../assets/svg/Services/CloudIcon";
+import UxIcon from "../../assets/svg/Services/UxIcon";
+import AiMlIcon from "../../assets/svg/Services/AiMlIcon";
+import BlockchainIcon from "../../assets/svg/Services/BlockchainIcon";
+import StrategyIcon from "../../assets/svg/Services/StrategyIcon";
 
-export default function ServiceBox({icon, title, subtitle}) {
+export default function ServiceBox({ icon, title, subtitle }) {
   let getIcon;
 
   switch (icon) {
-    case "roller":
-      getIcon = <RollerIcon />;
+    case "web":
+      getIcon = <WebdevIcon />;
       break;
-    case "monitor":
-      getIcon = <MonitorIcon />;
+    case "software":
+      getIcon = <SoftwareIcon />;
       break;
-    case "browser":
-      getIcon = <BrowserIcon />;
+    case "mobile":
+      getIcon = <MobileIcon />;
       break;
-    case "printer":
-      getIcon = <PrinterIcon />;
+    case "cloud":
+      getIcon = <CloudIcon />;
+      break;
+    case "uiux":
+      getIcon = <UxIcon />;
+      break;
+    case "aiml":
+      getIcon = <AiMlIcon />;
+      break;
+    case "blockchain":
+      getIcon = <BlockchainIcon />;
+      break;
+    case "strategy":
+      getIcon = <StrategyIcon />;
       break;
     default:
-      getIcon = <RollerIcon />;
+      getIcon = <WebdevIcon />;
       break;
   }
 
-
   return (
     <Wrapper className="flex flexColumn">
-      <IconStyle>{getIcon}</IconStyle>
-      <TitleStyle className="font20 extraBold">{title}</TitleStyle>
+      <div>
+        <IconStyle>{getIcon}</IconStyle>
+        <TitleStyle className="font20 extraBold">{title}</TitleStyle>
+      </div>
       <SubtitleStyle className="font13">{subtitle}</SubtitleStyle>
     </Wrapper>
   );
@@ -39,23 +56,28 @@ export default function ServiceBox({icon, title, subtitle}) {
 
 const Wrapper = styled.div`
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 const IconStyle = styled.div`
+  margin: 0 auto 40px;
   @media (max-width: 860px) {
-    margin: 0 auto;
+    margin: 0 auto 20px;
   }
 `;
 const TitleStyle = styled.h2`
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
-  padding: 40px 0;
-  @media (max-width: 860px) {
-    padding: 20px 0;
-  }
+  padding: 0;
 `;
 const SubtitleStyle = styled.p`
   width: 100%;
   max-width: 300px;
-  margin: 0 auto;
+  margin: 40px auto 0;
+  @media (max-width: 860px) {
+    margin: 20px auto 0;
+  }
 `;
