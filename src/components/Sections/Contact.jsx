@@ -13,7 +13,8 @@ export default function Contact() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut
               <br />
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
@@ -22,19 +23,49 @@ export default function Contact() {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Form>
                 <label className="font13">First name:</label>
-                <input type="text" id="fname" name="fname" className="font20 extraBold" />
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  className="font20 extraBold"
+                />
                 <label className="font13">Email:</label>
-                <input type="text" id="email" name="email" className="font20 extraBold" />
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  className="font20 extraBold"
+                />
                 <label className="font13">Subject:</label>
-                <input type="text" id="subject" name="subject" className="font20 extraBold" />
-                <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  className="font20 extraBold"
+                />
+                <textarea
+                  rows="4"
+                  cols="50"
+                  type="text"
+                  id="message"
+                  name="message"
+                  className="font20 extraBold"
+                />
               </Form>
               <SumbitWrapper className="flex">
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
+                <ButtonInput
+                  type="submit"
+                  value="Send Message"
+                  className="pointer animate radius8"
+                  style={{ maxWidth: "220px" }}
+                />
               </SumbitWrapper>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
-              <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
+              <div
+                style={{ width: "50%" }}
+                className="flexNullCenter flexColumn"
+              >
                 <ContactImgBox>
                   <img src={ContactImg1} alt="office" className="radius6" />
                 </ContactImgBox>
@@ -42,10 +73,10 @@ export default function Contact() {
                   <img src={ContactImg2} alt="office" className="radius6" />
                 </ContactImgBox>
               </div>
-              <div style={{ width: "50%" }}>
-                <div style={{ marginTop: "100px" }}>
+              <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
+                <ContactImgBoxRight>
                   <img src={ContactImg3} alt="office" className="radius6" />
-                </div>
+                </ContactImgBoxRight>
               </div>
             </div>
           </div>
@@ -101,22 +132,29 @@ const ButtonInput = styled.input`
   }
 `;
 const ContactImgBox = styled.div`
-  max-width: 180px; 
-  align-self: flex-end; 
-  margin: 10px 30px 10px 0;
+  max-width: 180px;
+  align-self: flex-end;
+  margin-right: 10px;
 `;
+
+const ContactImgBoxRight = styled.div`
+  align-self: flex-end;
+  margin: 100px 0 10px 10px;
+  img {
+    max-width: 100%;
+  }
+  @media (min-width: 991px) {
+    max-width: 180px;
+    margin: 100px 30px 10px 0;
+    img {
+      max-width: unset;
+    }
+  }
+`;
+
 const SumbitWrapper = styled.div`
   @media (max-width: 991px) {
     width: 100%;
     margin-bottom: 50px;
   }
 `;
-
-
-
-
-
-
-
-
-
