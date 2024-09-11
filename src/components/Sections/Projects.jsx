@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 // Components
 import ProjectBox from "../Elements/ProjectBox";
-import FullButton from "../Buttons/FullButton";
 // Assets
 import ProjectImg1 from "../../assets/img/projects/1.png";
 import ProjectImg2 from "../../assets/img/projects/2.png";
@@ -89,31 +88,19 @@ export default function Projects() {
             </AddLeft>
             <AddRight>
               <h4 className="font15 semiBold">A few words about company</h4>
-              <h2 className="font40 extraBold">A Study of Creativity</h2>
+              <h2 className="font40 extraBold">Fueling Innovation</h2>
               <p className="font12">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum.
+                At CodeForge, creativity and innovation go hand in hand. We
+                don’t just build software—we craft solutions that solve complex
+                problems and fuel business growth. Our approach to innovation is
+                driven by a deep understanding of emerging technologies, coupled
+                with the courage to think outside the box. By staying ahead of
+                the curve, we ensure that our clients benefit from cutting-edge
+                solutions that are not only effective but also transformative.
+                Whether it's leveraging AI, blockchain, or custom software, our
+                focus remains on delivering creative, impactful solutions that
+                drive results.
               </p>
-              <ButtonsRow
-                className="flexNullCenter"
-                style={{ margin: "30px 0" }}
-              >
-                <div style={{ width: "190px" }}>
-                  <FullButton
-                    title="Get Started"
-                    action={() => alert("clicked")}
-                  />
-                </div>
-                <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton
-                    title="Contact Us"
-                    action={() => alert("clicked")}
-                    border
-                  />
-                </div>
-              </ButtonsRow>
             </AddRight>
           </Advertising>
         </div>
@@ -131,7 +118,7 @@ const HeaderInfo = styled.div`
   }
 `;
 const Advertising = styled.div`
-  padding: 100px 0;
+  padding: 150px 0;
   margin: 100px 0;
   position: relative;
   @media (max-width: 1160px) {
@@ -141,11 +128,6 @@ const Advertising = styled.div`
     flex-direction: column;
     padding: 0 0 30px 0;
     margin: 80px 0 0px 0;
-  }
-`;
-const ButtonsRow = styled.div`
-  @media (max-width: 860px) {
-    justify-content: space-between;
   }
 `;
 const AddLeft = styled.div`
